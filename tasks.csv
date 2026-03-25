@@ -1,0 +1,5 @@
+task_name,hours,difficulty,days_left,has_prereq,depends_on
+Learn Flutter,10,6,14,0,
+Build UI,5,4,10,1,Learn Flutter
+Setup Firebase,8,8,7,1,Build UI
+Final Testing,3,3,2,1,Setup Firebase
